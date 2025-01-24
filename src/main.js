@@ -100,7 +100,7 @@ function animate() {
 
     if (model) {
         // Rotate the model on its Y-axis (self-rotation)
-        // model.rotation.y += 0.01;
+        model.rotation.y += 0.01;
     }
 
     // Update controls for smooth rotation
